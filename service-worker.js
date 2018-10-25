@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/guitar-knob/precache-manifest.25766bfb694d6e775c92fef09d979b2b.js"
+  "/syntherface/%20origin/precache-manifest.3548010b2051a154360eb7e7a90fd956.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/guitar-knob/index.html", {
+workbox.routing.registerNavigationRoute("/syntherface/%20origin/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

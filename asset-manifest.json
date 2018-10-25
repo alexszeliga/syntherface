@@ -1,13 +1,13 @@
 {
-  "main.css": "/guitar-knob/static/css/main.0b60a32f.chunk.css",
-  "main.js": "/guitar-knob/static/js/main.ef544f4a.chunk.js",
-  "main.js.map": "/guitar-knob/static/js/main.ef544f4a.chunk.js.map",
-  "static/js/1.b2fd0420.chunk.js": "/guitar-knob/static/js/1.b2fd0420.chunk.js",
-  "static/js/1.b2fd0420.chunk.js.map": "/guitar-knob/static/js/1.b2fd0420.chunk.js.map",
-  "runtime~main.js": "/guitar-knob/static/js/runtime~main.18df7c9b.js",
-  "runtime~main.js.map": "/guitar-knob/static/js/runtime~main.18df7c9b.js.map",
-  "static/css/main.0b60a32f.chunk.css.map": "/guitar-knob/static/css/main.0b60a32f.chunk.css.map",
-  "index.html": "/guitar-knob/index.html",
-  "precache-manifest.25766bfb694d6e775c92fef09d979b2b.js": "/guitar-knob/precache-manifest.25766bfb694d6e775c92fef09d979b2b.js",
-  "service-worker.js": "/guitar-knob/service-worker.js"
+  "main.css": "/syntherface/%20origin/static/css/main.0b60a32f.chunk.css",
+  "main.js": "/syntherface/%20origin/static/js/main.8e88ae80.chunk.js",
+  "main.js.map": "/syntherface/%20origin/static/js/main.8e88ae80.chunk.js.map",
+  "static/js/1.b2fd0420.chunk.js": "/syntherface/%20origin/static/js/1.b2fd0420.chunk.js",
+  "static/js/1.b2fd0420.chunk.js.map": "/syntherface/%20origin/static/js/1.b2fd0420.chunk.js.map",
+  "runtime~main.js": "/syntherface/%20origin/static/js/runtime~main.a04804aa.js",
+  "runtime~main.js.map": "/syntherface/%20origin/static/js/runtime~main.a04804aa.js.map",
+  "static/css/main.0b60a32f.chunk.css.map": "/syntherface/%20origin/static/css/main.0b60a32f.chunk.css.map",
+  "index.html": "/syntherface/%20origin/index.html",
+  "precache-manifest.3548010b2051a154360eb7e7a90fd956.js": "/syntherface/%20origin/precache-manifest.3548010b2051a154360eb7e7a90fd956.js",
+  "service-worker.js": "/syntherface/%20origin/service-worker.js"
 }
