@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/syntherface/%20origin/precache-manifest.3548010b2051a154360eb7e7a90fd956.js"
+  "/syntherface/precache-manifest.528a3c771ec09b9d2ad81e4ea30f9dcf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/syntherface/%20origin/index.html", {
+workbox.routing.registerNavigationRoute("/syntherface/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

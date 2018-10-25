@@ -1,13 +1,13 @@
 {
-  "main.css": "/syntherface/%20origin/static/css/main.0b60a32f.chunk.css",
-  "main.js": "/syntherface/%20origin/static/js/main.8e88ae80.chunk.js",
-  "main.js.map": "/syntherface/%20origin/static/js/main.8e88ae80.chunk.js.map",
-  "static/js/1.b2fd0420.chunk.js": "/syntherface/%20origin/static/js/1.b2fd0420.chunk.js",
-  "static/js/1.b2fd0420.chunk.js.map": "/syntherface/%20origin/static/js/1.b2fd0420.chunk.js.map",
-  "runtime~main.js": "/syntherface/%20origin/static/js/runtime~main.a04804aa.js",
-  "runtime~main.js.map": "/syntherface/%20origin/static/js/runtime~main.a04804aa.js.map",
-  "static/css/main.0b60a32f.chunk.css.map": "/syntherface/%20origin/static/css/main.0b60a32f.chunk.css.map",
-  "index.html": "/syntherface/%20origin/index.html",
-  "precache-manifest.3548010b2051a154360eb7e7a90fd956.js": "/syntherface/%20origin/precache-manifest.3548010b2051a154360eb7e7a90fd956.js",
-  "service-worker.js": "/syntherface/%20origin/service-worker.js"
+  "main.css": "/syntherface/static/css/main.0b60a32f.chunk.css",
+  "main.js": "/syntherface/static/js/main.a711b15d.chunk.js",
+  "main.js.map": "/syntherface/static/js/main.a711b15d.chunk.js.map",
+  "static/js/1.b2fd0420.chunk.js": "/syntherface/static/js/1.b2fd0420.chunk.js",
+  "static/js/1.b2fd0420.chunk.js.map": "/syntherface/static/js/1.b2fd0420.chunk.js.map",
+  "runtime~main.js": "/syntherface/static/js/runtime~main.e20aef3d.js",
+  "runtime~main.js.map": "/syntherface/static/js/runtime~main.e20aef3d.js.map",
+  "static/css/main.0b60a32f.chunk.css.map": "/syntherface/static/css/main.0b60a32f.chunk.css.map",
+  "index.html": "/syntherface/index.html",
+  "precache-manifest.528a3c771ec09b9d2ad81e4ea30f9dcf.js": "/syntherface/precache-manifest.528a3c771ec09b9d2ad81e4ea30f9dcf.js",
+  "service-worker.js": "/syntherface/service-worker.js"
 }
