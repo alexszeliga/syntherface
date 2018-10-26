@@ -47,7 +47,8 @@ class Knob extends Component {
       transform: "rotate(.5turn)"
     };
     var labelStyle = {
-      fontSize: "10px"
+      fontSize: "10px",
+      userSelect: "none"
     };
     var witnessCoords = {
       x1: 0.6 * Math.sin((this.state.value / 180) * Math.PI),
