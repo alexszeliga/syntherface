@@ -1,13 +1,13 @@
 {
   "main.css": "/syntherface/static/css/main.0b60a32f.chunk.css",
-  "main.js": "/syntherface/static/js/main.a711b15d.chunk.js",
-  "main.js.map": "/syntherface/static/js/main.a711b15d.chunk.js.map",
+  "main.js": "/syntherface/static/js/main.70642de3.chunk.js",
+  "main.js.map": "/syntherface/static/js/main.70642de3.chunk.js.map",
   "static/js/1.b2fd0420.chunk.js": "/syntherface/static/js/1.b2fd0420.chunk.js",
   "static/js/1.b2fd0420.chunk.js.map": "/syntherface/static/js/1.b2fd0420.chunk.js.map",
   "runtime~main.js": "/syntherface/static/js/runtime~main.e20aef3d.js",
   "runtime~main.js.map": "/syntherface/static/js/runtime~main.e20aef3d.js.map",
   "static/css/main.0b60a32f.chunk.css.map": "/syntherface/static/css/main.0b60a32f.chunk.css.map",
   "index.html": "/syntherface/index.html",
-  "precache-manifest.528a3c771ec09b9d2ad81e4ea30f9dcf.js": "/syntherface/precache-manifest.528a3c771ec09b9d2ad81e4ea30f9dcf.js",
+  "precache-manifest.e646715123efc89fe6db0d7c1cb4cd1f.js": "/syntherface/precache-manifest.e646715123efc89fe6db0d7c1cb4cd1f.js",
   "service-worker.js": "/syntherface/service-worker.js"
 }
