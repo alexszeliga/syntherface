@@ -6,9 +6,9 @@ import Knob from "./Knob";
 import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <div>
-    <Knob size="100px" />
-    <Knob size="150px" />
-    <Knob size="80px" />
+    <Knob size="100px" labelText="Volume" />
+    <Knob size="150px" labelText="Freq" />
+    <Knob size="80px" labelText="Tone" />
   </div>,
 
   document.getElementById("root")

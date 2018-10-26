@@ -36,10 +36,18 @@ class Knob extends Component {
 
   render() {
     var knobStyle = {
-      height: this.props.size,
+      height: this.props.size * 1.2,
       width: this.props.size,
       backgroundColor: "grey",
+      textAlign: "center"
+    };
+    var dialStyle = {
+      height: this.props.size * 0.8,
+      width: this.props.size * 0.8,
       transform: "rotate(.5turn)"
+    };
+    var labelStyle = {
+      fontSize: "10px"
     };
     var witnessCoords = {
       x1: 0.6 * Math.sin((this.state.value / 180) * Math.PI),
@@ -56,7 +64,10 @@ class Knob extends Component {
         onMouseUp={this.handleMouseUp}
         onMouseLeave={this.handleMouseLeave}
       >
-        <svg viewBox="-1 -1 2 2">
+        <p style={labelStyle}>
+          {this.props.labelText ? this.props.labelText : `labelText`}
+        </p>
+        <svg style={dialStyle} viewBox="-1 -1 2 2">
           <circle cx="0" cy="0" r="1" fill="black" />
           <line
             className="witnessMark"
@@ -69,39 +80,39 @@ class Knob extends Component {
           />
           <circle cx="0" cy="0" r=".6" fill="silver" />
           <circle
-            cx={Math.sin(((30 + this.state.value) / 180) * Math.PI)}
-            cy={Math.cos(((30 + this.state.value) / 180) * Math.PI)}
-            r=".22"
+            cx={1.2 * Math.sin(((30 + this.state.value) / 180) * Math.PI)}
+            cy={1.2 * Math.cos(((30 + this.state.value) / 180) * Math.PI)}
+            r=".35"
             fill="grey"
           />
           <circle
-            cx={Math.sin(((90 + this.state.value) / 180) * Math.PI)}
-            cy={Math.cos(((90 + this.state.value) / 180) * Math.PI)}
-            r=".22"
+            cx={1.2 * Math.sin(((90 + this.state.value) / 180) * Math.PI)}
+            cy={1.2 * Math.cos(((90 + this.state.value) / 180) * Math.PI)}
+            r=".35"
             fill="grey"
           />
           <circle
-            cx={Math.sin(((150 + this.state.value) / 180) * Math.PI)}
-            cy={Math.cos(((150 + this.state.value) / 180) * Math.PI)}
-            r=".22"
+            cx={1.2 * Math.sin(((150 + this.state.value) / 180) * Math.PI)}
+            cy={1.2 * Math.cos(((150 + this.state.value) / 180) * Math.PI)}
+            r=".35"
             fill="grey"
           />
           <circle
-            cx={Math.sin(((210 + this.state.value) / 180) * Math.PI)}
-            cy={Math.cos(((210 + this.state.value) / 180) * Math.PI)}
-            r=".22"
+            cx={1.2 * Math.sin(((210 + this.state.value) / 180) * Math.PI)}
+            cy={1.2 * Math.cos(((210 + this.state.value) / 180) * Math.PI)}
+            r=".35"
             fill="grey"
           />
           <circle
-            cx={Math.sin(((270 + this.state.value) / 180) * Math.PI)}
-            cy={Math.cos(((270 + this.state.value) / 180) * Math.PI)}
-            r=".22"
+            cx={1.2 * Math.sin(((270 + this.state.value) / 180) * Math.PI)}
+            cy={1.2 * Math.cos(((270 + this.state.value) / 180) * Math.PI)}
+            r=".35"
             fill="grey"
           />
           <circle
-            cx={Math.sin(((330 + this.state.value) / 180) * Math.PI)}
-            cy={Math.cos(((330 + this.state.value) / 180) * Math.PI)}
-            r=".22"
+            cx={1.2 * Math.sin(((330 + this.state.value) / 180) * Math.PI)}
+            cy={1.2 * Math.cos(((330 + this.state.value) / 180) * Math.PI)}
+            r=".35"
             fill="grey"
           />
         </svg>
