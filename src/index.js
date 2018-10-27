@@ -1,15 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import "./Knob.css";
+import App from "./App";
 import Knob from "./Knob";
 import * as serviceWorker from "./serviceWorker";
+
 ReactDOM.render(
-  <div>
-    <Knob size="100px" labelText="Volume" />
-    <Knob size="150px" labelText="Freq" />
-    <Knob size="80px" labelText="Tone" />
-  </div>,
+  <App />,
 
   document.getElementById("root")
 );
