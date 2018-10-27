@@ -1,13 +1,13 @@
 {
-  "main.css": "/syntherface/static/css/main.0b60a32f.chunk.css",
-  "main.js": "/syntherface/static/js/main.6912351b.chunk.js",
-  "main.js.map": "/syntherface/static/js/main.6912351b.chunk.js.map",
-  "static/js/1.b2fd0420.chunk.js": "/syntherface/static/js/1.b2fd0420.chunk.js",
-  "static/js/1.b2fd0420.chunk.js.map": "/syntherface/static/js/1.b2fd0420.chunk.js.map",
+  "main.css": "/syntherface/static/css/main.f17c5575.chunk.css",
+  "main.js": "/syntherface/static/js/main.45a1f9f7.chunk.js",
+  "main.js.map": "/syntherface/static/js/main.45a1f9f7.chunk.js.map",
+  "static/js/1.e65c36e8.chunk.js": "/syntherface/static/js/1.e65c36e8.chunk.js",
+  "static/js/1.e65c36e8.chunk.js.map": "/syntherface/static/js/1.e65c36e8.chunk.js.map",
   "runtime~main.js": "/syntherface/static/js/runtime~main.e20aef3d.js",
   "runtime~main.js.map": "/syntherface/static/js/runtime~main.e20aef3d.js.map",
-  "static/css/main.0b60a32f.chunk.css.map": "/syntherface/static/css/main.0b60a32f.chunk.css.map",
+  "static/css/main.f17c5575.chunk.css.map": "/syntherface/static/css/main.f17c5575.chunk.css.map",
   "index.html": "/syntherface/index.html",
-  "precache-manifest.f5f40e13b5500a1df52dd29f32e6f672.js": "/syntherface/precache-manifest.f5f40e13b5500a1df52dd29f32e6f672.js",
+  "precache-manifest.95d757c7395a584931d6094166d02d10.js": "/syntherface/precache-manifest.95d757c7395a584931d6094166d02d10.js",
   "service-worker.js": "/syntherface/service-worker.js"
 }
