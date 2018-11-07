@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <style>
+      .instrument-chassis {
+        display: grid;
+        margin: 1vw;
+        grid-gap: 1vw;
+        grid-template-rows: 7.5fr 2.5fr;
+        grid-template-columns: 7.5fr 2.5fr;
+        width: 98vw;
+        height: 33vw;
+      }
+
+      .control-interface {
+        display: grid;
+        grid-gap: 1vw;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+
+      .patch-interface {
+        display: grid;
+        grid-gap: 1vw;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+      }
+
+      .sequencer-controls {
+        background-color: purple;
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+      }
+
+      .control {
+        background-color: blue;
+      }
+
+      .patch {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="instrument-chassis">
+      <div class="control-interface">
+        <div class="control knob" data-function="vco-freq"></div>
+        <div class="control switch" data-function="vco-wave"></div>
+        <div class="control knob" data-function="vco-pulse-width"></div>
+        <div class="control knob" data-function="vco-mix"></div>
+        <div class="control knob" data-function="vcf-cutoff-freq"></div>
+        <div class="control knob" data-function="vcf-resonance"></div>
+        <div class="control switch" data-function="vca-mode"></div>
+        <div class="control knob" data-function="vca-volume"></div>
+        <div class="control knob" data-function="vco-glide"></div>
+        <div class="control switch" data-function="vco-mod-source"></div>
+        <div class="control knob" data-function="vco-mod-amount"></div>
+        <div class="control switch" data-function="vco-mod-destination"></div>
+        <div class="control switch" data-function="vcf-mode"></div>
+        <div class="control switch" data-function="vcf-mod-source"></div>
+        <div class="control knob" data-function="vcf-mod-amount"></div>
+        <div class="control switch" data-function="vcf-mod-polarity"></div>
+        <div class="control led" data-function="midi-led"></div>
+        <div class="control knob" data-function="tempo-gate"></div>
+        <div class="control knob" data-function="lfo-rate"></div>
+        <div class="control switch" data-function="lfo-wave"></div>
+        <div class="control knob" data-function="env-attack"></div>
+        <div class="control switch" data-function="env-sustain"></div>
+        <div class="control knob" data-function="env-decay"></div>
+        <div class="control knob" data-function="vc-mix"></div>
+      </div>
+      <div class="patch-interface">
+        <div class="patch patch-in" data-function="ext-audio-in"></div>
+        <div class="patch patch-in" data-function="mix-cv-in"></div>
+        <div class="patch patch-in" data-function="vca-cv-in"></div>
+        <div class="patch patch-out" data-function="vca-out"></div>
+        <div class="patch patch-out" data-function="noise-out"></div>
+        <div class="patch patch-in" data-function="vcf-cutoff-in"></div>
+        <div class="patch patch-in" data-function="vcf-resonance-in"></div>
+        <div class="patch patch-out" data-function="vcf-out"></div>
+        <div class="patch patch-in" data-function="vco-1v-oct-in"></div>
+        <div class="patch patch-in" data-function="vco-line-fm-in"></div>
+        <div class="patch patch-out" data-function="vco-saw-out"></div>
+        <div class="patch patch-out" data-function="vco-pulse-out"></div>
+        <div class="patch patch-in" data-function="vco-mod"></div>
+        <div class="patch patch-in" data-function="lfo-rate"></div>
+        <div class="patch patch-out" data-function="lfo-tri-out"></div>
+        <div class="patch patch-out" data-function="lfo-sq-out"></div>
+        <div class="patch patch-in" data-function="mix-1-in"></div>
+        <div class="patch patch-in" data-function="mix-2-in"></div>
+        <div class="patch patch-in" data-function="vc-mix-control-in"></div>
+        <div class="patch patch-out" data-function="vc-mix-out"></div>
+        <div class="patch patch-in" data-function="mult-in"></div>
+        <div class="patch patch-out" data-function="mult-1-out"></div>
+        <div class="patch patch-out" data-function="mult-2-out"></div>
+        <div class="patch patch-out" data-function="assign-out"></div>
+        <div class="patch patch-in" data-function="gate-in"></div>
+        <div class="patch patch-out" data-function="eg-out"></div>
+        <div class="patch patch-out" data-function="kb-out"></div>
+        <div class="patch patch-out" data-function="gate-out"></div>
+        <div class="patch patch-in" data-function="tempo"></div>
+        <div class="patch patch-in" data-function="run-stop"></div>
+        <div class="patch patch-in" data-function="reset"></div>
+        <div class="patch patch-in" data-function="hold"></div>
+      </div>
+      <div class="sequencer-controls"></div>
+    </div>
+  </body>
+</html>

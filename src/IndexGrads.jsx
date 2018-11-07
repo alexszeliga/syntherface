@@ -1,134 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Knob extends Component {
-  dragFlag = false;
-  handleMouseDown = e => {
-    this.dragFlag = true;
-    this.setState({ y: e.screenY });
-  };
-  handleMouseUp = e => {
-    this.dragFlag = false;
-  };
-  handleMouseLeave = e => {
-    this.dragFlag = false;
-  };
-  onMouseMove(e) {
-    if (this.dragFlag && this.state.y > e.screenY) {
-      this.setState({
-        y: e.screenY,
-        value:
-          this.state.value >= -135 ? this.state.value - 10 : this.state.value
-      });
-    }
-    if (this.dragFlag && this.state.y < e.screenY) {
-      this.setState({
-        y: e.screenY,
-        value:
-          this.state.value <= 135 ? this.state.value + 10 : this.state.value
-      });
-    }
-  }
-  state = {
-    value: 135,
-    x: 0,
-    y: 0
-  };
-
+class IndexGrads extends Component {
   render() {
-    var knobStyle = {
-      display: "relative",
-      backgroundColor: "grey",
-      textAlign: "center",
-
-      display: "inline-block"
-    };
-    var dialStyle = {
-      height: "100%",
-      width: "100%",
-      transform: "rotate(.5turn)"
-    };
-    var labelStyle = {
-      fontSize: "10px",
-      userSelect: "none"
-    };
+    var indexLength = 0.8;
     var indexGradsStyle = {
       height: "100%",
       width: "100%",
       transform: "rotate(.5turn)"
     };
-    var indexLength = 0.8;
-    var witnessCoords = {
-      x1: 0.5 * Math.sin((this.state.value / 180) * Math.PI),
-      y1: 0.5 * Math.cos((this.state.value / 180) * Math.PI),
-      x2: 0.8 * Math.sin((this.state.value / 180) * Math.PI),
-      y2: 0.8 * Math.cos((this.state.value / 180) * Math.PI)
-    };
-
     return (
-      <div className="knob" style={knobStyle}>
-        {/* <div style={indexGradsStyle}>
-          <svg viewBox="-1 -1 2 2">
-          </svg>
-        </div>
-        <p style={labelStyle}>
-          {this.props.labelText ? this.props.labelText : `labelText`}
-        </p> */}
-
-        <svg
-          onMouseMove={this.onMouseMove.bind(this)}
-          onMouseDown={this.handleMouseDown}
-          onMouseUp={this.handleMouseUp}
-          onMouseLeave={this.handleMouseLeave}
-          style={dialStyle}
-          viewBox="-1 -1 2 2"
-        >
-          <circle cx="0" cy="0" r=".8" fill="black" />
-          <line
-            className="witnessMark"
-            stroke="white"
-            strokeWidth="5%"
-            x1={witnessCoords.x1}
-            y1={witnessCoords.y1}
-            x2={witnessCoords.x2}
-            y2={witnessCoords.y2}
-          />
-          <circle cx="0" cy="0" r=".5" fill="silver" />
-          <circle
-            cx={1.05 * Math.sin(((30 + this.state.value) / 180) * Math.PI)}
-            cy={1.05 * Math.cos(((30 + this.state.value) / 180) * Math.PI)}
-            r=".35"
-            fill="grey"
-          />
-          <circle
-            cx={1.05 * Math.sin(((90 + this.state.value) / 180) * Math.PI)}
-            cy={1.05 * Math.cos(((90 + this.state.value) / 180) * Math.PI)}
-            r=".35"
-            fill="grey"
-          />
-          <circle
-            cx={1.05 * Math.sin(((150 + this.state.value) / 180) * Math.PI)}
-            cy={1.05 * Math.cos(((150 + this.state.value) / 180) * Math.PI)}
-            r=".35"
-            fill="grey"
-          />
-          <circle
-            cx={1.05 * Math.sin(((210 + this.state.value) / 180) * Math.PI)}
-            cy={1.05 * Math.cos(((210 + this.state.value) / 180) * Math.PI)}
-            r=".35"
-            fill="grey"
-          />
-          <circle
-            cx={1.05 * Math.sin(((270 + this.state.value) / 180) * Math.PI)}
-            cy={1.05 * Math.cos(((270 + this.state.value) / 180) * Math.PI)}
-            r=".35"
-            fill="grey"
-          />
-          <circle
-            cx={1.05 * Math.sin(((330 + this.state.value) / 180) * Math.PI)}
-            cy={1.05 * Math.cos(((330 + this.state.value) / 180) * Math.PI)}
-            r=".35"
-            fill="grey"
-          />
+      <div style={indexGradsStyle}>
+        <svg viewBox="-1 -1 2 2">
           <line
             className="witnessMark"
             stroke="white"
@@ -630,4 +512,4 @@ class Knob extends Component {
   }
 }
 
-export default Knob;
+export default IndexGrads;
